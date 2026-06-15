@@ -1,0 +1,44 @@
+.logo{
+    width: 100px;
+}
+
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 10px;
+}
+
+.inputGroup label{
+    font-weight: bold;
+}
+
+.inputGroup input{
+    border: 2px solid var(--border-bg);
+    height: 2rem;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.borderless{
+   border: unset;
+}
+
+.paymentType{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-block: 10px;
+}
+
+.paymentType span{
+    padding: 5px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.paymentType span.selected{
+    border: 1px solid var(--border-bg);
+    box-shadow: 0 0 .1rem .1rem var(--box-shadow);
+}

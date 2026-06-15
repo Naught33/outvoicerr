@@ -1,0 +1,95 @@
+/* auth pages */
+
+
+.wide-btn{
+    width: 100%;
+    height: 3rem;
+    border-radius: 100px;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+}
+
+.hot{
+    background: var(--hot-bg);
+    color: var(--hot-font);
+}
+
+.cold{
+    background: var(--cold-bg);
+    color: var(--cold-font);
+    border: 2px solid var(--cold-font);
+}
+
+form{
+    width: 80%;
+    border-radius: 24px;
+    padding: 10px;
+    background: var(--primary-component-bg);
+    box-shadow: .1rem .1rem 1rem .1rem var(--box-shadow);
+}
+
+.form-group, .clause{
+    width: 100%;
+    padding-block: 10px;
+}
+
+.form-group label{
+    font-weight: bold;
+}
+
+.clause{
+    display: flex;
+    align-items: start;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.form-group input{
+    height: 1.5rem;
+    border-radius: 100px;
+    padding: 10px;
+    border: 2px solid var(--border-bg);
+}
+
+.focus{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.info{
+    padding: 10px;
+    margin-block: 10px;
+    box-shadow: .1rem .1rem 1rem .1rem var(--box-shadow);
+    border-radius: 24px;
+    width: 90%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group input,.input-group select{
+    border: 2px solid var(--border-bg);
+    height: 2rem;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.input-group label{
+    font-weight: bold;
+}
+
+.fit-screen{
+    width: 95%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+}

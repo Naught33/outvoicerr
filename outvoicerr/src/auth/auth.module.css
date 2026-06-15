@@ -1,0 +1,22 @@
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100svh;
+    width: 100svw;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.logo{
+    width: 280px;
+}
+
+.tandcs{
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.tandcs span{
+    cursor: pointer;
+}
