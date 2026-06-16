@@ -15,7 +15,7 @@ import { useState } from 'react'
 
 
 export default function Home(){
-    const [mode, setMode] = useState('ai')
+    const [mode, setMode] = useState('manual')
     const icons = [
         {
             "name": "Download",

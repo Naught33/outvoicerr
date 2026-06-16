@@ -176,7 +176,8 @@ form{
 .chatContainer{
     padding: 10px;
     margin-top: 80px;
-    height: 65vh;
+    min-height: 60vh;
+    max-height: 65vh;
     overflow-y: auto;
     overflow-x: hidden;
     border-radius: 32px;
